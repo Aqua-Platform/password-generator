@@ -56,7 +56,7 @@ echo $password;
 
 <p>You still don't like this password? <a href="advanced.php">Advanced Password generator</a></p>
 
-<p>There is also a <a href="https://github.com/PlatformIQ/password-generator" target="_blank">Github page for this password generator</a></p>
+<p>There is also a <a href="https://github.com/Aqua-Platform/password-generator" target="_blank">Github page for this password generator</a></p>
 
 </body>
 </html>
