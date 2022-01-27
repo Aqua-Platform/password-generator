@@ -95,7 +95,8 @@ if( $_POST ) {
                   $alpha_upper_include = array( 'yes' => "Yes", 'no' => "No" );
 				  foreach( $alpha_upper_include as $key => $val ):
 				  $selected = '';
-				  if( $key == $_POST['alpha_upper_include'] ) {
+				  $value = isset($_POST['alpha_upper_included']) ? $_POST['alpha_upper_included'] : '';
+				  if( $key == $value ) {
 					  $selected = 'selected="selected"';					  
 				  }
 				  ?>
@@ -112,7 +113,8 @@ if( $_POST ) {
                   $alpha_lower_include = array( 'yes' => "Yes", 'no' => "No" );
 				  foreach( $alpha_lower_include as $key => $val ):
 				  $selected = '';
-				  if( $key == $_POST['alpha_lower_include'] ) {
+				  $value = isset($_POST['alpha_lower_included']) ? $_POST['alpha_lower_included'] : '';
+				  if( $key == $value ) {
 					  $selected = 'selected="selected"';					  
 				  }
 				  ?>
@@ -129,7 +131,8 @@ if( $_POST ) {
                   $number_include = array( 'yes' => "Yes", 'no' => "No" );
 				  foreach( $number_include as $key => $val ):
 				  $selected = '';
-				  if( $key == $_POST['number_include'] ) {
+				  $value = isset($_POST['number_include']) ? $_POST['number_include'] : '';
+				  if( $key == $value ) {
 					  $selected = 'selected="selected"';					  
 				  }
 				  ?>
@@ -146,7 +149,8 @@ if( $_POST ) {
                   $symbol_include = array( 'yes' => "Yes", 'no' => "No" );
 				  foreach( $symbol_include as $key => $val ):
 				  $selected = '';
-				  if( $key == $_POST['symbol_include'] ) {
+				  $value = isset($_POST['symbol_include']) ? $_POST['symbol_include'] : '';
+				  if( $key == $value ) {
 					  $selected = 'selected="selected"';					  
 				  }
 				  ?>
